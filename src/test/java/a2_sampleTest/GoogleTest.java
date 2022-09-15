@@ -22,7 +22,7 @@ public class GoogleTest {
 		wd.get("https://www.google.com/");
 		wd.findElement(By.name("q")).sendKeys("chennai");
 		File scr=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(scr, new File("C:/Users/Admin/workspace/J1_GitTest/src/test/Bing.png"));
+		FileHandler.copy(scr, new File("C:/Users/Admin/workspace/J1_GitTest/src/test/google.png"));
 		
 	}
 
